@@ -150,6 +150,7 @@ jobs:
               ALLOW_ROOT=yes \
               BOARD=onecloud \
               BRANCH=current \
+              EXTRAWIFI=no \
               EXPERT=yes
           sudo chown $(id -u):$(id -g) -R output/
         
